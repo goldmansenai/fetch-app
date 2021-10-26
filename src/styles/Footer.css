@@ -1,0 +1,22 @@
+.fixed {
+  position: fixed;
+  height: 70px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+  padding: 0 !important;
+}
+
+.ftr{
+  margin-bottom: 100px;
+  padding-top: 0;
+}
+
+@media only screen and (max-width: 350px) {
+  .display{
+    display: none;
+  }
+}
+
+
