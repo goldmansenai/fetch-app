@@ -17,6 +17,8 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Card from "./Card";
 import "../styles/Pagina.css";
+import BuscaNome from "./BuscaNome";
+import BuscaNumero from "./BuscaNumero";
 
 const Pagina = () => {
   return (
@@ -28,6 +30,8 @@ const Pagina = () => {
           <Card pokeName="Raticate" pokeImg={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png`}/>
           <Card pokeName="Clefairy" pokeImg={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png`}/>
         </div>
+        <BuscaNome />
+        <BuscaNumero />
       </div>
       <Footer />
     </div>

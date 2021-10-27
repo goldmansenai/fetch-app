@@ -3,9 +3,11 @@
     margin-bottom: 30px;
 }
 
-/* .cardsExemplos {
-    display: flex;
-}  */
+.buscas {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
 
 @media only screen and (max-width: 451px){
     .container{
