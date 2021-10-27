@@ -1,10 +1,14 @@
-.conteudo {
+.container {
     margin-top: 60px;
-    margin-bottom: 120px;
+    margin-bottom: 30px;
 }
 
+/* .cardsExemplos {
+    display: flex;
+}  */
+
 @media only screen and (max-width: 451px){
-    .conteudo{
+    .container{
        margin-top: 120px;
     }
 }
