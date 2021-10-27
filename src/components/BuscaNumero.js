@@ -39,7 +39,8 @@ const BuscaNumero = () => {
   } else {
     return (
       <div>
-        <div className="input">
+        <div className="label">
+          <label className="alert alert-primary">Sem ideias? Gere um pokemon aleatório!</label>
           <button
             type="button"
             class="btn btn-outline-danger"
@@ -57,7 +58,6 @@ const BuscaNumero = () => {
             </svg>
             Gerar
           </button>
-          <label>Sem ideias? Gere um pokemon aleatório!</label>
         </div>
         <div>
             <h2>Nome: {statePokemon.pokemon?.name}</h2>

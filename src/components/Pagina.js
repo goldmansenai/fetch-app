@@ -30,8 +30,10 @@ const Pagina = () => {
           <Card pokeName="Raticate" pokeImg={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png`}/>
           <Card pokeName="Clefairy" pokeImg={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png`}/>
         </div>
-        <BuscaNome />
-        <BuscaNumero />
+        <div className="container-buscas">
+          <BuscaNome />
+          <BuscaNumero />
+        </div>
       </div>
       <Footer />
     </div>
