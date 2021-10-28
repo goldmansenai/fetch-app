@@ -26,9 +26,9 @@ const Pagina = () => {
       <Header />
       <div className="container">
         <div className="card-group">
-          <Card pokeName="Pikachu" pokeImg={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png`}/>
-          <Card pokeName="Raticate" pokeImg={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png`}/>
-          <Card pokeName="Clefairy" pokeImg={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png`}/>
+          <Card nome="Bulbasaur" img={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png`} tipo="Grass"/>
+          <Card nome="Squirtle" img={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png`} tipo="Water"/>
+          <Card nome="Charmander" img={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png`} tipo="Fire"/>
         </div>
         <div className="container-buscas">
           <BuscaNome />

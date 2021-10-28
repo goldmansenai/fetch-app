@@ -41,7 +41,13 @@ const BuscaNumero = () => {
     return (
       <div>
         <div className="label">
-          <label className="alert alert-primary">Sem ideias? Gere aleatoriamente</label>
+          <input
+            type="text"
+            className="alert alert-primary"
+            id="disabledTextInput"
+            placeholder="Sem ideias? Clique em  ->"
+            disabled
+          />
           <button
             type="button"
             class="btn btn-outline-danger"
@@ -61,7 +67,13 @@ const BuscaNumero = () => {
           </button>
         </div>
         <div>
-          <Pokemon nome={statePokemon.pokemon?.name} tipo={statePokemon.pokemon?.types.type} img={statePokemon.pokemon?.sprites.front_default} habilidade={statePokemon.pokemon?.ability}/>
+          <Pokemon
+            nome={statePokemon.pokemon?.name}
+            tipo={statePokemon.pokemon?.types.type?.name}
+            img={statePokemon.pokemon?.sprites.front_default}
+            habilidade1={statePokemon.pokemon?.abilities[0].ability.name}
+            habilidade2={statePokemon.pokemon?.abilities[1].ability.name}
+          />
         </div>
       </div>
     );

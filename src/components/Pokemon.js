@@ -16,7 +16,7 @@ const Pokemon = (props) => {
         <div class="card-footer text-muted bg-danger">
           <p className="text-white">Habilidades:</p>
           <span className="text-white">
-            {props.habildiade} - {props.habilidade}
+            {props.habilidade1} - {props.habilidade2}
           </span>
         </div>
       </div>
