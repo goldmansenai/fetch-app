@@ -48,8 +48,9 @@ class BuscaNome extends Component {
         <div>
           <Pokemon
             nome={pokemon.name}
-            tipo={pokemon.types?.type}
+            // tipo={pokemon.types?.type?.name}
             img={pokemon.sprites?.front_default}
+            num={pokemon.id}
             // habilidade1={pokemon.abilities[0].ability.name}
             // habilidade2={pokemon.abilities[1].ability.name}
           />

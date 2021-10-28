@@ -4,7 +4,7 @@ import '../styles/Header.css'
 
 const Header = () => {
     return(
-        <nav className="navbar fixed-top navbar-dark bg-dark">
+        <nav className="navbar fixed-top navbar-dark bg">
             <a className="navbar-brand nav-link" href="#">PokeAPI</a>
             <div className="links">
                 <a className="nav-link disabled" href="#">Marvel API</a>

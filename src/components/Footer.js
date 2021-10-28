@@ -5,7 +5,7 @@ import "../styles/Footer.css";
 const Footer = () => {
   return (
     <div className="ftr">
-      <div className="text-center bg-dark text-white fixed">
+      <div className="text-center bg text-white fixed">
         © 2021 Copyright
         <span
           className="text-reset fw-bold"
