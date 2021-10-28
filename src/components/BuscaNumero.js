@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Pokemon from "./Pokemon";
 import "../styles/Buscas.css";
 
 const BuscaNumero = () => {
@@ -40,7 +41,7 @@ const BuscaNumero = () => {
     return (
       <div>
         <div className="label">
-          <label className="alert alert-primary">Sem ideias? Gere um pokemon aleatório!</label>
+          <label className="alert alert-primary">Sem ideias? Gere aleatoriamente</label>
           <button
             type="button"
             class="btn btn-outline-danger"
@@ -60,8 +61,7 @@ const BuscaNumero = () => {
           </button>
         </div>
         <div>
-            <h2>Nome: {statePokemon.pokemon?.name}</h2>
-            <img src={statePokemon.pokemon?.sprites.front_default}/>
+          <Pokemon nome={statePokemon.pokemon?.name} tipo={statePokemon.pokemon?.types.type} img={statePokemon.pokemon?.sprites.front_default} habilidade={statePokemon.pokemon?.ability}/>
         </div>
       </div>
     );

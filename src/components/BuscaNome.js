@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Api from "../Api";
+import Pokemon from "./Pokemon";
 import "../styles/Buscas.css";
 
 class BuscaNome extends Component {
@@ -26,7 +27,11 @@ class BuscaNome extends Component {
             placeholder="Pesquisa por nome"
             id="nome"
           />
-          <button type="button" class="btn btn-outline-danger" onClick={() => this.componentDidMount()}>
+          <button
+            type="button"
+            class="btn btn-outline-danger"
+            onClick={() => this.componentDidMount()}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -41,8 +46,7 @@ class BuscaNome extends Component {
           </button>
         </div>
         <div>
-          <h2>Nome: {pokemon.name}</h2>
-          <img src={pokemon.sprites?.front_default} />
+          <Pokemon nome={pokemon.name} tipo={pokemon.types?.type} img={pokemon.sprites?.front_default} habilidade={pokemon.ability}/>
         </div>
       </div>
     );
