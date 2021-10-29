@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Api from "../Api";
 import Pokemon from "./Pokemon";
-import "../styles/Buscas.css";
 
 class BuscaNome extends Component {
   state = {
