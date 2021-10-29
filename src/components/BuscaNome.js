@@ -11,15 +11,13 @@ class BuscaNome extends Component {
   async componentDidMount() {
     var nome = document.getElementById("nome").value.toString().toLowerCase();
     const response = await Api.get(`${nome}`);
-
-    console.log('antes do state')
+    
     this.setState({ pokemon: response.data });
-    console.log('depois do state')
   }
 
   render() {
     const { pokemon } = this.state;
-
+    
     return (
       <div>
         <div className="input">
@@ -41,11 +39,6 @@ class BuscaNome extends Component {
         <div>
           <Pokemon
             pokemon={pokemon}
-            // tipo={pokemon.types[0]?.type.name}
-            // img={pokemon.sprites?.front_default}
-            // num={pokemon.id}
-            // habilidade1={pokemon.abilities[0].ability.name}
-            // habilidade2={pokemon.abilities[1].ability.name}
           />
         </div>
       </div>
