@@ -15,7 +15,7 @@ const Card = (props) => {
             <img class="card-img-top" src={props.img} alt="Foto do Pokemon" />
           </div>
           <div class="card-footer text-muted bg-warning">
-            <span className="text-dark">{props.tipo}</span>
+            <span class="text-dark">{props.tipo}</span>
           </div>
         </div>
       </div>

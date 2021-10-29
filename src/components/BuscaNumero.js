@@ -68,12 +68,13 @@ const BuscaNumero = () => {
         </div>
         <div>
           <Pokemon
-            nome={statePokemon.pokemon?.name}
-            tipo={statePokemon.pokemon?.types[0].type?.name}
-            img={statePokemon.pokemon?.sprites.front_default}
-            num={statePokemon.pokemon?.id}
-            habilidade1={statePokemon.pokemon?.abilities[0].ability.name}
-            habilidade2={statePokemon.pokemon?.abilities[1].ability.name}
+            pokemon={statePokemon.pokemon}
+            // nome={statePokemon.pokemon?.name}
+            // tipo={statePokemon.pokemon?.types[0].type?.name}
+            // img={statePokemon.pokemon?.sprites.front_default}
+            // num={statePokemon.pokemon?.id}
+            // habilidade1={statePokemon.pokemon?.abilities[0].ability.name}
+            // habilidade2={statePokemon.pokemon?.abilities[1].ability.name}
           />
         </div>
       </div>
