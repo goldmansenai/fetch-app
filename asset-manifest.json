@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/fetch-app/static/css/main.4c946be3.chunk.css",
+    "main.js": "/fetch-app/static/js/main.f2c3d3dd.chunk.js",
+    "main.js.map": "/fetch-app/static/js/main.f2c3d3dd.chunk.js.map",
+    "runtime-main.js": "/fetch-app/static/js/runtime-main.11460da9.js",
+    "runtime-main.js.map": "/fetch-app/static/js/runtime-main.11460da9.js.map",
+    "static/css/2.914e2278.chunk.css": "/fetch-app/static/css/2.914e2278.chunk.css",
+    "static/js/2.63b098b8.chunk.js": "/fetch-app/static/js/2.63b098b8.chunk.js",
+    "static/js/2.63b098b8.chunk.js.map": "/fetch-app/static/js/2.63b098b8.chunk.js.map",
+    "index.html": "/fetch-app/index.html",
+    "static/css/2.914e2278.chunk.css.map": "/fetch-app/static/css/2.914e2278.chunk.css.map",
+    "static/css/main.4c946be3.chunk.css.map": "/fetch-app/static/css/main.4c946be3.chunk.css.map",
+    "static/js/2.63b098b8.chunk.js.LICENSE.txt": "/fetch-app/static/js/2.63b098b8.chunk.js.LICENSE.txt",
+    "static/media/bootstrap-icons.css": "/fetch-app/static/media/bootstrap-icons.d0ec932c.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11460da9.js",
+    "static/css/2.914e2278.chunk.css",
+    "static/js/2.63b098b8.chunk.js",
+    "static/css/main.4c946be3.chunk.css",
+    "static/js/main.f2c3d3dd.chunk.js"
+  ]
+}
